@@ -20,3 +20,17 @@ Viewing logs from containers
 $ kubectl logs <podname>
 $ kubectl logs <podname> -f # similar variant of tail -f 
 ```
+
+Pods
+
+get pods
+
+```
+$ kubectl get pods
+```
+
+get pods with labels
+
+```
+$ kubectl get pods --show-labels
+```
