@@ -29,5 +29,6 @@ $ kubectl get pods --selector="!<labelName>" // key not set
 $ kubectl get pods --selector=<labelName> in (value1, value2)" // either satisfies value1, value2
 $ kubectl get pods --selector=<labelName> notin (value1, value2)" // not in all of these values
 $ kubectl get pods --selector=<labelname>!=<value> // labelname not equals value
+$ kubectl get pods --l 'labelname>=<value>' // shortcut for labelname
 
 ``
