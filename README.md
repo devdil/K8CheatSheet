@@ -1,6 +1,13 @@
 # K8CheatSheet
 Kubernetes userful commands and cheat sheet
 
+# Kubernetes Cluster
+
+Display kubernetes version both client and server
+```
+$ kubectl version
+```
+
 # Containers
 
 Copying files from and to containers
