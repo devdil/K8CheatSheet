@@ -22,3 +22,12 @@ $ kubectl logs <podname> -f // similar variant of tail -f
 $ kubectl get pods
 $ kubectl get pods --show-labels // get pods with labels
 ```
+```
+$ kubectl get pods --selector="<labelName>=<labelValue>" // filter by labename whose value is labelvalue
+$ kubectl get pods --selector="<labelName>=<labelValue>,<label2Name>=<label2Value>" // multiple labels together
+$ kubectl get pods --selector="!<labelName>" // key not set
+$ kubectl get pods --selector=<labelName> in (value1, value2)" // either satisfies value1, value2
+$ kubectl get pods --selector=<labelName> notin (value1, value2)" // not in all of these values
+$ kubectl get pods --selector=<labelname>!=<value> // labelname not equals value
+
+``
