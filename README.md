@@ -33,4 +33,12 @@ $ kubectl get pods --selector=<labelName> notin (value1, value2)" // not in all 
 $ kubectl get pods --selector=<labelname>!=<value> // labelname not equals value
 $ kubectl get pods --l 'labelname>=<value>' // shortcut for labelname
 
-``
+```
+
+## Nodes
+```
+$ kubectl get pods -o wide
+$ kubectl get pods -show-labels
+$ kubectl describe pod {podname}
+
+```
