@@ -39,6 +39,6 @@ $ kubectl get pods --l 'labelname>=<value>' // shortcut for labelname
 ```
 $ kubectl get pods -o wide
 $ kubectl get pods -show-labels
-$ kubectl describe pod {podname}
+$ kubectl describe node {nodename}
 
 ```
