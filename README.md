@@ -7,7 +7,8 @@ Kubernetes userful commands and cheat sheet
 
 Display kubernetes version both client and server
 ```
-$ kubectl version
+$ kubectl version #displays kubernetes both client and server
+$ kubectl cluster-info # dispalys cluster stats
 ```
 
 ## Pods
