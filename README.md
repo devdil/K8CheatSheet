@@ -49,3 +49,9 @@ $ kubectl describe node {nodename}
 ```
 $ kubectl get all -o wide
 ```
+
+# Utlization
+```
+$ kubectl top pods -n namespace
+$ kubectl top nodes -n namespace
+```
