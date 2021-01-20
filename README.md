@@ -24,6 +24,7 @@ $ kubectl logs <podname> -f // similar variant of tail -f
 ```
 $ kubectl get pods
 $ kubectl get pods --show-labels // get pods with labels
+$ kubectl describe pod podname -n namepsace 
 ```
 ```
 $ kubectl get pods --selector="<labelName>=<labelValue>" // filter by labename whose value is labelvalue
