@@ -54,4 +54,5 @@ $ kubectl get all -o wide
 ```
 $ kubectl top pods -n namespace
 $ kubectl top nodes -n namespace
+$ kubectl top pods --all-namespaces
 ```
