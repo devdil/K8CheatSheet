@@ -3,6 +3,8 @@ Kubernetes userful commands and cheat sheet
 
 [Kubernetes Official Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 
+[Kubernetes Unofficial Cheat Sheet](https://unofficial-kubernetes.readthedocs.io/en/latest/user-guide/kubectl-cheatsheet/)
+
 ## Kubernetes Cluster
 
 Display kubernetes version both client and server
@@ -39,7 +41,10 @@ $ kubectl get pods --selector=<labelname>!=<value> // labelname not equals value
 $ kubectl get pods --l 'labelname>=<value>' // shortcut for labelname
 
 ```
-
+```
+$ kubectl describe pod [pod-name] //get event details of the pod
+$ kubectl exec [pod-name] -it sh
+```
 ## Nodes
 ```
 $ kubectl get pods -o wide
