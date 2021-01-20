@@ -47,8 +47,8 @@ $ kubectl exec [pod-name] -it sh
 ```
 ## Nodes
 ```
-$ kubectl get pods -o wide
-$ kubectl get pods -show-labels
+$ kubectl get nodes -o wide
+$ kubectl get nodes -show-labels
 $ kubectl describe node {nodename}
 
 ```
