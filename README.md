@@ -44,3 +44,8 @@ $ kubectl get pods -show-labels
 $ kubectl describe node {nodename}
 
 ```
+
+# Everything
+```
+$ kubectl get all -o wide
+```
