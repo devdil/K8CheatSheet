@@ -19,7 +19,8 @@ $ kubectl cp localfilepath <podname>:/path/on/the/container // copy files to con
 ```
 ```
 $ kubectl logs <podname> // view logs
-$ kubectl logs <podname> -f // similar variant of tail -f 
+$ kubectl logs <podname> -f // similar variant of tail -f
+$ kubectl logs [pod-name] -c [container-name] // if more than one container
 ```
 ```
 $ kubectl get pods
