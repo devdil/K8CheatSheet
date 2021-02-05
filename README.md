@@ -5,6 +5,8 @@ Kubernetes userful commands and cheat sheet
 
 [Kubernetes Unofficial Cheat Sheet](https://unofficial-kubernetes.readthedocs.io/en/latest/user-guide/kubectl-cheatsheet/)
 
+[Kubernetes Internals Tutorial](https://www.youtube.com/watch?v=3KtEAa7_duA)
+
 ## Kubernetes Cluster
 
 Display kubernetes version both client and server
