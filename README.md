@@ -47,7 +47,7 @@ $ kubectl get pods --l 'labelname>=<value>' // shortcut for labelname
 $ kubectl describe pod [pod-name] //get event details of the pod
 $ kubectl exec [pod-name] -it sh // deprecated
 $ kubectl exec {podname} -- {command} // execute a command in the pod and return the output
-$ kubectl exec --stdin --tty {pod_name} -- /bin/bash
+$ kubectl exec -it {pod_name} -- /bin/sh // login as shell in the container
 $ kubectl exec -i -t my-pod --container main-app -- /bin/bash // when pod has more than one container
 ```
 ## Nodes
