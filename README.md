@@ -14,6 +14,12 @@ Display kubernetes version both client and server
 $ kubectl version #displays kubernetes both client and server
 $ kubectl cluster-info # dispalys cluster stats
 ```
+## Kubernetes Context
+
+kubectl config set-context --current --namespace=<namespacename>
+kubectl config current-context
+kubectl config use-context <contextname>
+kubectl get namespaces --context <contextname>
 
 ## Pods
 
